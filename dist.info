@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "luasystem"
+version = "0.2.1"
+
+desc = "Platform independent system calls for Lua."
+author = "o-lim"
+license = "MIT <http://opensource.org/licenses/MIT>"
+url = "https://github.com/o-lim/luasystem/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua >= 5.1"
+}
