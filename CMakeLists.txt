@@ -15,7 +15,7 @@ if ( WIN32 )
   add_definitions ( "-DWINVER=0x0600" "-D_WIN32_WINNT=0x0600" )
 endif ( )
 
-if ( UNIX )
+if ( UNIX AND NOT APPLE )
   set ( LIBS rt )
 endif ( )
 
